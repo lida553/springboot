@@ -16,7 +16,7 @@ public class HelloController {
 
         article.setAuthor("字母哥");*/
 
-        Article article1 = Article.builder().id(5L).author("莫言").build();
+        Article article1 = Article.builder().id(6L).author("莫言").build();
 
         log.info("测试一下" + article1);
 

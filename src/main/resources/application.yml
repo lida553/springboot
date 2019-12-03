@@ -1,2 +1,47 @@
 server:
   port: 8888
+
+  #    1. 一个家庭有爸爸、妈妈、孩子。
+  #    2. 这个家庭有一个名字（family-name）叫做“happy family”
+  #    3. 爸爸有名字(name)和年龄（age）两个属性
+  #    4. 妈妈有两个别名
+  #    5. 孩子除了名字(name)和年龄（age）两个属性，还有一个friends的集合
+  #    6. 每个friend有两个属性：hobby(爱好)和性别(sex)
+
+#family:
+#  family-name: "happy \n family"
+#  father:
+#    name: zimug
+#    age: 17
+#  mother:
+#    alias:
+#      - lovly
+#      - alice
+#  child:
+#    name: kobe
+#    age: ${family.father.age:5}
+#    friends:
+#      - hobby: football
+#        sex: male
+#      - hobby: baskball
+#        sex: female
+
+family:
+  family-name: "happy family"
+  father:
+    name: zimug
+    age: 18
+  mother:
+    alias:
+      - lovely
+      - alice
+  child:
+    name: kobe
+    age: 16
+    friends:
+      - hobby: football
+        sex: boy
+      - hobby: baskball
+        sex: girl
+#      - {hobby: football, sex: boy},
+#      - {hobby: baskball, sex: girl}

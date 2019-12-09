@@ -1,5 +1,7 @@
-server:
-  port: 8888
+spring:
+  profiles:
+    active: dev
+
 
   #    1. 一个家庭有爸爸、妈妈、孩子。
   #    2. 这个家庭有一个名字（family-name）叫做“happy family”
